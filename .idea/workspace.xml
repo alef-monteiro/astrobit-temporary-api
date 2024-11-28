@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3029cd73-12ab-4c2a-93ca-6d7719911620" name="Changes" comment="feat: temporary api for frontend test." />
+    <list default="true" id="3029cd73-12ab-4c2a-93ca-6d7719911620" name="Changes" comment="feat: Implements username into forms.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_astrobit/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_astrobit/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_api/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +125,12 @@
       <workItem from="1732499922442" duration="336000" />
       <workItem from="1732500274213" duration="784000" />
       <workItem from="1732638477695" duration="3780000" />
-      <workItem from="1732655255200" duration="2262000" />
+      <workItem from="1732655255200" duration="11293000" />
+      <workItem from="1732679476231" duration="16103000" />
+      <workItem from="1732739833971" duration="5010000" />
+      <workItem from="1732750986483" duration="792000" />
+      <workItem from="1732754878672" duration="1122000" />
+      <workItem from="1732770169938" duration="2197000" />
     </task>
     <task id="LOCAL-00001" summary="feat: temporary api for frontend test.">
       <option name="closed" value="true" />
@@ -129,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732500048583</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Implements username into forms.">
+      <option name="closed" value="true" />
+      <created>1732658043773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732658043773</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: temporary api for frontend test." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: temporary api for frontend test." />
+    <MESSAGE value="feat: Implements username into forms." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implements username into forms." />
   </component>
 </project>
