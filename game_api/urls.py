@@ -1,7 +1,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
-from .views import LoginUserView, RegisterUserView, LogoutUserView
+from .views import LoginUserView, RegisterUserView, LogoutUserView, CustomTokenObtainPairView
 from .viewset import UserViewSet, SubjectViewSet, UserSubjectViewSet, QuestionViewSet, ScoreViewSet
 
 # Criação do roteador e registro dos viewsets
@@ -16,6 +16,8 @@ router.register(r'scores', ScoreViewSet)
 urlpatterns = [
     # URLs de API com o roteador
     path('api/', include(router.urls)),
+
+    path('api/token/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
 
     # Endpoints da API para login, registro e logout
     path('api/register/', RegisterUserView.as_view(), name='user_register'),  # Registro de usuário via API
