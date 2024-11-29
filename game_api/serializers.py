@@ -62,14 +62,17 @@ class RegisterSerializer(serializers.ModelSerializer):
         return user
 
 
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
+
 class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
-    @classmethod
     def get_token(cls, user):
         token = super().get_token(user)
 
-        # Adicionar informações extras ao payload
-        token['name'] = user.name  # Certifique-se que o campo `name` existe no seu modelo
+        # Adicione os campos necessários ao payload
+        token['id'] = user.id
+        token['name'] = user.name
         token['username'] = user.username
         token['email'] = user.email
 
         return token
+

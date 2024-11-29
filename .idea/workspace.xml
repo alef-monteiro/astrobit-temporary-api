@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3029cd73-12ab-4c2a-93ca-6d7719911620" name="Changes" comment="fix: Jwt-simple installed implements correct token to access userdata.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_api/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="feat-alex" />
@@ -127,6 +129,9 @@
       <workItem from="1732750986483" duration="792000" />
       <workItem from="1732754878672" duration="1122000" />
       <workItem from="1732770169938" duration="3409000" />
+      <workItem from="1732775082642" duration="12402000" />
+      <workItem from="1732828016589" duration="10267000" />
+      <workItem from="1732910245010" duration="6505000" />
     </task>
     <task id="LOCAL-00001" summary="feat: temporary api for frontend test.">
       <option name="closed" value="true" />
@@ -152,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732772583568</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix: Jwt-simple installed implements correct token to access userdata.">
+      <option name="closed" value="true" />
+      <created>1732775137351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732775137351</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
